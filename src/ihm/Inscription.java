@@ -73,7 +73,6 @@ public class Inscription {
 		lblMail.setBounds(10, 50, 70, 20);
 		lblMail.setText("Mail");
 		
-		
 		Label lblMdp = new Label(shell,  SWT.NONE);
 		lblMdp.setBounds(10, 87, 70, 20);
 		lblMdp.setText("MDP");
