@@ -70,7 +70,7 @@ public class mdp {
 		text = new Text(shell, SWT.BORDER);
 		text.setBounds(93, 26, 78, 26);
 		
-		text_1 = new Text(shell,SWT.PASSWORD | SWT.BORDER);
+		text_1 = new Text(shell, SWT.BORDER);
 		text_1.setBounds(93, 72, 78, 26);
 		
 		Label lblEmail = new Label(shell, SWT.NONE);

@@ -73,18 +73,18 @@ public class Inscription {
 		lblMail.setBounds(10, 50, 70, 20);
 		lblMail.setText("Mail");
 		
-		Label lblMdp = new Label(shell, SWT.PASSWORD | SWT.NONE);
+		Label lblMdp = new Label(shell,  SWT.NONE);
 		lblMdp.setBounds(10, 87, 70, 20);
 		lblMdp.setText("MDP");
 		
-		Label lblConfirmationMdp = new Label(shell,SWT.PASSWORD | SWT.NONE);
+		Label lblConfirmationMdp = new Label(shell,  SWT.NONE);
 		lblConfirmationMdp.setBounds(10, 123, 133, 20);
 		lblConfirmationMdp.setText("Confirmation MDP");
 		
-		mdp2 = new Text(shell, SWT.BORDER);
+		mdp2 = new Text(shell,SWT.PASSWORD | SWT.BORDER);
 		mdp2.setBounds(149, 117, 78, 26);
 		
-		mdp = new Text(shell, SWT.BORDER);
+		mdp = new Text(shell, SWT.PASSWORD | SWT.BORDER);
 		mdp.setBounds(149, 81, 78, 26);
 		
 		mail = new Text(shell, SWT.BORDER);

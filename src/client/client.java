@@ -5,6 +5,7 @@ import java.net.*;
 
 import org.eclipse.swt.events.SelectionAdapter;
 
+import ihm.Popup;
 import ihm.main;
 
 public class client {
@@ -55,7 +56,9 @@ public class client {
 		} catch (UnknownHostException e) {
 		  System.err.println("Impossible de se connecter à l'adresse "+socket.getLocalAddress());
 		} catch (IOException e) {
-		  System.err.println("Aucun serveur à l'écoute du port "+socket.getLocalPort());
+			Popup pop =new Popup();
+			pop.main2("Aucun serveur a l'ecoute");
+		  //System.err.println("Aucun serveur à l'écoute du port "+socket.getLocalPort());
 		}
 		return socket;
 		

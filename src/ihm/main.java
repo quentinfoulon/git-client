@@ -128,12 +128,7 @@ public class main {
 					p.main2(socket);
 					//159429
 				} else{
-						try {
-						socket.close();
-						} catch (IOException e1) {
-						// TODO Auto-generated catch block
-						e1.printStackTrace();
-						}
+						
 					}
 				
 				
